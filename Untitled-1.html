@@ -1,0 +1,353 @@
+<!-- <html> -->
+    <!-- How TO Write The Inner Html -->
+    <!-- <p id='demo'></p>
+    <script>
+     document.getElementById('demo').innerHTML = "Hello Word"
+    </script> -->
+
+    <!-- <head> -->
+        <!-- How To Called Function  -->
+        <!-- <script>
+            function myfun()
+            {
+                document.getElementById('demo').innerHTML="Function Called"
+            }
+        </script> -->
+    <!-- </head>
+    <body> -->
+        <!-- <p id="demo">This Is Demo </p> -->
+        <!-- <button type="button" onclick="myfun()">
+          Click Me
+        </button> -->
+    <!-- </body>
+</html> -->
+
+
+<!-- <html>
+    <head>
+        <script src="teach.js"></script>
+    </head>
+    <body>
+            <p>For The Testing Purpose </p>
+            <button onclick="add()">Click Me!For Additions</button>
+    </body>
+</html> -->
+
+<!-- <html>
+    <head>
+        <script src = "teach.js"></script>
+    </head>
+    <body>
+        <button onclick="variable()">
+          Clicked
+        </button>
+    </body>
+</html> -->
+<html>
+    
+    <script>
+    //let,const,var    
+               //We Can not  The Access Variable Out Of Block Scope Declare Using let Keyword 
+               //also Can not Redeclared it
+               // {
+                 //   let x = 10;
+                 
+               // }    
+               // window.alert(x);
+
+                //We Can The Access Variable Out Of Block Scope Declare Using var Keyword 
+               //also Can Redeclared it
+               //{
+                //var x =10;
+               //}
+               //var x ="abc";
+               //alert(x);
+
+               //We Can not  The Access Variable Out Of Block Scope Declare Using const Keyword 
+               //also Can not Redeclared it
+               //{
+                //const x = 10;
+                //alert(x);
+               //}
+
+    //Data Types
+
+               //1) Number
+              // var num = 76;
+               //var ch = typeof(num);
+               //alert("This Is Boolean DataType :- "+ch);
+              
+               //2) String 
+               //var st = "Abc";
+               //var ch = typeof(st);
+               //alert("This Is String DataType :- "+ch);
+
+               //3) Booleans 
+                //var b = true;
+                //var ch = typeof(b);
+                //alert("This Is Boolean DataType :- "+ch);
+                
+                //4) Array Object
+                //var ary = ['1','2','3'];
+               // var ch = typeof(ary);
+               // alert("This Is Array DataType :- "+ch);
+
+             //  5) Object
+               //var per = {
+                //'name' : 'abc',
+                //'age' : 22
+               //}
+               //var ch = typeof(per);
+                //alert("This Is Object DataType :- "+ch+" "+per.age);
+
+               // 6) Null
+                //var a = null;
+               // alert(typeof(a)+a);
+
+               //7)Bg Int
+               //var x = BigInt("1234567891218441346845314654");
+               //alert(typeof(x));
+
+    // Parsing DataTypes
+                //var a = 16 / "4" ; 
+                //var a = 16 + "4" ; 
+                //var a = 16 % "4" ;
+                //var a = 16 - "4" ;  
+                //alert(typeof(a)+" "+a);
+    
+    //operators
+
+              //1)Airthmetic Operators
+                //-> Addition
+                //let a = 20;
+                //let b = 5;
+                //let ans = a + b;
+                //alert(ans);
+
+                //->SubTraction
+                //let a = 20;
+                //let b = 5;
+                //let ans = a + b;
+                //alert(ans);
+
+                //multiplication
+                //let a = 20;
+                //let b = 5;
+                //let ans = a * b;
+                //alert(ans);
+
+                //DiviSion
+                //let a = 20;
+                //let b = 5;
+                //let ans = a / b;
+                //alert(ans);
+
+               // Modulus
+                //let a = 20;
+                //let b = 5;
+                //let ans = a % b;
+                //alert(ans);
+
+               //Increment 
+               //let a = 20;
+               //a++;
+               //alert(a);
+
+               //Decrement 
+               //let a = 20;
+               //a--;
+               //alert(a);
+
+               // **
+               //let a = 10;
+               //let b = 5;
+               //alert(a ** 5);
+
+        //Assignment Operator
+          //1) =
+            //let a = 10;
+            //let b = 10;
+            //alert(a == b);
+
+            //2) ===
+            //let a = 10;
+            //let b = 10;
+            //alert(a === b);
+
+            //3) +=
+            //let a = 10;
+            //a += 2;
+            //alert(a);
+
+            //4) -=
+            //let a = 20;
+            //a -= 2;
+            //alert(a)
+
+        //comparison operator
+
+           // 1) less than
+           //let a = 10;
+           //let b = 20;
+           //alert(a < b);
+
+           // 2) grater than
+           //let a = 10;
+           //let b = 20;
+           //alert(a > b);
+
+           //3) Not Equal To
+            //let a = 10;
+            //let b = 20;
+            //alert(a != b);
+
+            //4) Equal To
+              //let a = 10;
+              //let b = 10;
+              //alert(a == b);
+
+        //Logical Operator
+          //1) Logical And Operator (&&)
+
+          //var a = 10;
+          //var b = 20;
+          //var c = 30;
+
+          //1) LogicalAnd
+          //alert(a < b && a < c);
+          
+          //2)logicalor
+          //alert(a > b || a < c)
+          
+          //3)logical Not !
+          //alert(a != b);
+
+    //Conditional
+    //var a = 30;
+   // var b = 40;
+
+    //if(a > b)
+    //{
+      //  alert("A Is Big");
+    //}
+
+    //if(a > b)
+    //{
+      //  alert("A Is Big");
+    //}
+    //else
+    //{
+      //  alert("B Is Big")
+    //}
+
+    //let x = 0;
+
+    //switch(x)
+    //{
+        //case 0:
+        //alert('Zero');
+        //break;
+  
+       //case 1:
+       //alert("One");
+       //break;
+
+       //default :
+       //alert("Non Above")
+
+    //}
+
+    //Loops
+       
+    //1) For loop
+    //for (let i = 0; i<= 10; i++)
+    //{
+    //   console.log(i);
+    //} 
+    
+    //2) For In Loop
+    // let ary =['a','b','c','d'];
+    // let find = 'a'
+    // for(find in ary)
+    // {
+    //     console.log('Yes');
+    // }
+
+    //3)For Or
+        // var ary =['a','b','c','d'];
+        // var ap = "";
+
+        // for (var x of ary)
+        // {
+        //     ap += x;
+        //     console.log(x);
+        // }
+
+    //4)while loop
+        //var a = 10;
+        //while(a > 0)
+        //{
+        //    console.log(a);
+        //    i--;
+        //}
+
+     //5)do While
+     //var x =10;
+    // do{
+    //     console.log(x);
+    //     x--;
+    // }
+    // while(x > 0);
+
+
+   //Statement
+   //1) Break Statement
+        // for (var i=0; i<10; i++)
+        // {
+        //    if(i == 5)
+        //    {break;}
+        //    console.log(i);
+        // }
+
+    //2) Continue Statement
+        // for (var i=0; i<10; i++)
+        // {
+        //    if(i == 5)
+        //    {continue;}
+        //    console.log(i);
+        // }   
+        
+    //Function
+    //1) no return no Agrument
+    //function myfun()
+    //{
+    //    console.log("Hello");
+    //}
+    //mufun();
+
+    //2) no return with argument
+    //function square( a )
+    //  {
+    //     console.log(a * a);
+    //  }
+    
+    //  square(7);
+
+    //3) with return no argument
+    //function sb()
+    //{
+    //    var a = 10;
+    //    var b = 20;
+    //    return [a , b];
+    //}
+    //console.log(sb())
+
+   // 4) with return with agrgumrnet
+    //function myfun(a,b)
+    //{
+    //    sum = a+b;
+    //    return sum; 
+    //}
+    //console.log(myfun(10,5));
+    </script>
+</html>
