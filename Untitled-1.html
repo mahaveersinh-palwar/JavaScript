@@ -349,5 +349,242 @@
     //    return sum; 
     //}
     //console.log(myfun(10,5));
-    </script>
+
+  //Object
+
+  //-> object store the value in key-value pair ,
+     //object are mutable means we can change the value of the objects,
+     //we can access the value of the object using the (.) dot operator.
+
+
+  //Object
+
+    // let person = {
+    //     'name' : "Abc",
+    //     'age' : 25,
+    //     'mobile no ' : 3519654,
+    //     }
+    // console.log(person);
+
+    // console.log(person.name);
+
+    //Adding Value In Empty Object 
+    // let per = {
+
+    // };
+
+    // per.name = 'abc';
+    // per.age = 12
+    // console.log(per);
+
+    //create the object using new keyword
+
+    // let per = new Object();
+
+    // per.name = 'abc';
+
+    // console.log(per);
+    // console.log(per['name']);
+    // console.log(per.name);
+    
+    // we can store the properties as the function
+      // let per = {
+      //  'name': 'abc',
+      // 'age' : 12,
+      //'full' : function()
+      //{
+          // console.log(this.name + "  "+ this.age);
+          //return this.name + " "+ this.age;
+      // } 
+  
+      // console.log(per.full());
+
+    //Delete Object Properties
+
+        //let per = {
+          //'name': 'abc',
+          //'age' : 12,
+          //'full' : function()
+          //{
+              // console.log(this.name + "  "+ this.age);
+              //return this.name + " "+ this.age;
+         // } 
+        //}
+       // delete per.age;
+      
+       // console.log(per);
+
+      // console.log(Object.values(per));
+      // console.log(Object.keys(per));
+
+  //Convert Object Into String
+
+      //let per = {
+      //name : 'abc',
+      //age : 24
+       // };
+  
+        //let mystring = JSON.stringify(per);
+        //console.log(typeof(mystring)); 
+
+  //onstructor
+        //function Person(nm , age)
+         //{
+          // console.log(this.name = nm);
+          // console.log(this.ages = age);
+          //}
+
+            //let Pr = new Person("abc",12);
+            //Person.prototype.add = "abc" 
+            //console.log(pr);
+
+      //Methods
+      //1) Assign :- This Method Add value in second Object To First Object 
+         // const pe = {
+          //     name : "anc"
+          // };
+
+          // const pe1 =
+          // {
+          //    age : 24
+          // };
+
+          // Object.assign(pe, pe1);
+          // console.log(pe);
+          // console.log(pe1);
+
+        //2)Freeze :-  You can not Change,update and delete value after apply Freeze Method
+       // let per = {
+          //     name:'abc',
+          //     ahe:25
+          // };
+          
+          // Object.freeze(per);
+          
+          // per.name = "rld"
+          
+          // console.log(per);
+
+    //Array
+       // let ary = ['abc','fss','dfsa'];
+       // console.log(typeof(ary));      
+       // console.log( ary[0]);
+       // let str = ary.toString();
+       // console.log(typeof(str));
+
+       //ADD And Update Array 
+        // let ary = ['a','d','e'];
+ 
+        // ary[0] = 'r';
+
+        // console.log(ary);
+
+      //Sort Method
+      
+        //let name = ['asc','fsa',12,'saa'];
+        // console.log(name.sort());
+
+      //length Methods
+        // let ary = ['avc',12,'add','ad'];
+        // console.log(ary.length);
+
+      //Convert Into String
+        //let ary = ['sac',12,'asd'];
+        //let st = ary.toString();
+        //console.log(typeof(st));
+
+      //At()
+      // let ary = [1,2,3,4,5,6,7];
+      // console.log(ary.at(5));
+
+      //Join()
+      // let ary = [1,2,3];
+      // let jon = ary.join("*");
+      // console.log(jon);
+
+      //Pop()
+      // let con = [1,2,3,4,5,6];
+      // con.pop();
+      // console.log(con);
+
+      //Push()
+       //let con = [1,2,3,4,5];
+       //con.push(7);
+       //console.log(con);
+
+       //concating
+         //let con = [1,2,3,4,5];
+         //let co = [10,11,12];
+         //console.log(con.concat(co));
+
+        //splice
+          //let ary = [1,2,3,4,5];
+          //ary.splice(0,3,'a');      //first parameter is indicate in which position u wiil add number and second and second how much element you will delete element
+          //console.log(ary);
+
+        //tospliced -> this method can nat modify the old array it was make a new array
+         //let ary = [1,2,3,4];
+         //console.log(ary.toSpliced(0,0,'abc'));
+
+         //sclice
+            //let ary = ['a','c','s','f','r'];
+            //let ch =ary.slice(3); //hoe manay element you wan to delete
+            //console.log(ch);
+
+          //foreach
+          //let ary = ['x',2,'c'];
+            // ary.forEach((element)=>{
+            // console.log(element);
+           //})
+
+          //Map 
+            //let sq = [1,2,3];
+            // console.log(sq.map((num)=> num*num));
+ 
+          //Filter
+            //let chek = [1,12,18,16];
+            //let ft = chek.filter((chek) => chek < 18);
+            //console.log(ft);
+
+          //Reduce
+
+           // let num = [1,2,3,4,5,6];
+            
+           // const sum =  num.reduce((accumulator, currentValue)=>
+           // {
+            //       return accumulator+currentValue;
+           // }
+           // );
+            //console.log(sum);
+
+          //Spreade
+          //let obj = {
+          //  name:'abc',
+          //  age:22
+          //};
+          
+          //const ob1 = {
+          //  ...obj,
+          //  name : 'def'  
+          //};
+          //console.log(ob1);
+
+          //reverse
+          //let ary = [1,2,3,4,5,6,7];
+          //const rev = ary.reverse();
+          //console.log(rev);
+
+          //toreverse
+           //let ary = [1,2,3,4,5,6,7];
+           //const rev = ary.toReversed();
+           //console.log(rev);
+
+           //Destructuring
+              // let obj = {
+                  //   name:'abc',
+                  //   age : 23
+              // }
+              // let {name, age} = obj
+              // console.log(name);
+      </script>
 </html>
