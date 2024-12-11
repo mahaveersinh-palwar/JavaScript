@@ -558,5 +558,4 @@ const num = ['a',10,20,30,40,50,60];
 
 const [a, b, ...rest] = num;
 
-
-console.log(a,b,rest);
+console.log([a,b,...rest]);

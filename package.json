@@ -1,9 +1,13 @@
 {
   "dependencies": {
+    "init": "^0.1.2",
+    "moment": "^2.30.1",
+    "node": "^23.4.0",
+    "nodemodule": "^0.3.0",
     "nodemon": "^3.1.7"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon teach.js"
+    "start": "nodemon map.js"
   }
 }
